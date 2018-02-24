@@ -1,14 +1,17 @@
-package main
+Package main
 
 import "fmt"
+import "math"
 
-const Pi=3.14
+const s string ="constant"
 
 func main() {
-	const World ="abcd"
-	fmt.Println("hello", World)
-	fmt.Println("Happy",Pi,"Day")
+	fmt.Println(s)
 
-	const Truth = true
-	fmt.Println("Go rules?", Truth)
+	const n =50000
+
+	const m=3e20 /n
+	fmt.Println(m)
+    fmt.Println(init64(d))
+    fmt.Println(math.Sin(n))
 }
